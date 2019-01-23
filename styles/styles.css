@@ -1,22 +1,66 @@
 body {
-  background-color: lightblue;
+  background-color: #deeaee;
   font-family: helvetica;
 }
 h1 {
-  color: white;
+  color: #c94c4c;
   text-align: center;
 }
-table {
-  width:75%;
+table, th, td {
+  table-layout: fixed;
+  width:80%;
   text-align:left;
+  border: 1px solid black;
+}
+td {
+  width: 50%;
+}
+tr:hover {
+  background-color:  #e8b0b0;
+}
+th {
+  background-color: #b1cbbb;
+  color: white;
+  text-align: center;
 }
 table td img {
   height: 80px;
   width: 80px;
 }
+ul {
+  list-style-type: circle;
+}
 h3 {
   font-style: italic;
 }
+h4 {
+  color: #c94c4c;
+}
 footer p {
   font-variant: small-caps;
+}
+#personal-photo {
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding:2px;
+  border:2px solid #c94c4c;
+}
+.icon-pic{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#home-page-pic{
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding:2px;
+  border:2px solid #c94c4c;
 }
