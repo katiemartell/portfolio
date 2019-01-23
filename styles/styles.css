@@ -40,8 +40,8 @@ footer p {
   font-variant: small-caps;
 }
 #personal-photo {
-  height: 250px;
-  width: 250px;
+  height: 200px;
+  width: 200px;
   border-radius: 50%;
   display: block;
   margin-left: auto;
@@ -55,8 +55,8 @@ footer p {
   margin-right: auto;
 }
 #home-page-pic{
-  height: 150px;
-  width: 150px;
+  height: 200px;
+  width: 200px;
   border-radius: 50%;
   display: block;
   margin-left: auto;
