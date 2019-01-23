@@ -1,0 +1,22 @@
+body {
+  background-color: lightblue;
+  font-family: helvetica;
+}
+h1 {
+  color: white;
+  text-align: center;
+}
+table {
+  width:75%;
+  text-align:left;
+}
+table td img {
+  height: 80px;
+  width: 80px;
+}
+h3 {
+  font-style: italic;
+}
+footer p {
+  font-variant: small-caps;
+}
