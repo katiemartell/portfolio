@@ -1,57 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>Home Page</title>
-    <link rel="stylesheet" type="text/css" href="styles/styles.css">
-  </head>
-  <body>
-      <header>
-        <h1>Welcome to Katie Martell's Portfolio Page</h1>
-        <img id="home-page-pic" src="images/pencil.png" alt="A picture of a gray cartoon pencil.">
-      </header>
-    <section>
-      <h4>Main Navigation</h4>
-      <nav class="global-nav">
-        <ul>
-          <li><a href="#">Home Page</a></li>
-          <li><a href="about-me.html">About Me</a></li>
-        </ul>
-      </nav>
-    </section>
-    <section>
-      <h4>Portfolio List</h4>
-      <p>Thank you for visiting my site! Below you can see a list of projects I have completed. For my portfolio I want an <q>About me</q> page which I already made in assigment 1. Therefore I linked to my main naviagation page. I will delete this after this assignment is graded, but I wanted to explain why it was there. I've added some additional HTML elements to my <q>About me</q> page to fufill the assignment requirements.</p>
-      <table>
-        <tr>
-          <th>Project Name</th>
-          <th>Image</th>
-          <th>Link</th>
-        </tr>
-        <tr>
-          <td>About Me Assignment</td>
-          <td><img class="icon-pic" src="images/person-icon.png" alt="A blue icon with the shape of a person inside"></td>
-          <td><a href="about-me.html">About Me</a></td>
-        </tr>
-        <tr>
-          <td>Where I've Been Assignment</td>
-          <td><img class="icon-pic" src="images/places-icon.png" alt="A blue icon with the shape of location marker inside"></td>
-          <td><a href="#">Where I've Been</a></td>
-        </tr>
-        <tr>
-          <td>Music I Like Assignment</td>
-          <td><img class="icon-pic" src="images/music-icon.png" alt="A blue icon with the shape of a cassette tape inside"></td>
-          <td><a href="#">Music I Like</a></td>
-        </tr>
-      </table>
-    </section>
+<head>
+  <meta charset="utf-8">
+  <title>Home Page</title>
+  <link rel="stylesheet" type="text/css" href="styles/styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Raleway|Roboto+Slab" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+</head>
+<body>
+  <header>
+    <h1>Welcome to Katie Martell's Portfolio Page</h1>
+    <img id="home-page-pic" src="images/pencil.png" alt="A picture of a gray cartoon pencil.">
+  </header>
+  <section>
+    <h4>Main Navigation</h4>
+    <div class="flex-container">
+      <div class="nav-box"><a class="header-link" href="index.html">Home</a></div>
+      <div class="nav-box"><a class="header-link" href="about-me.html">About me</a></div>
+      <div class="nav-box"><a class="header-link" href="#">Project</a></div>
+    </div>
 
-    <article>
-      <h4>Blog Post 1</h4>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum facilisis consectetur mi, ac sagittis elit luctus quis. Fusce hendrerit imperdiet rutrum. In lacinia rhoncus consequat. Vivamus dictum tellus eget pulvinar porttitor. Nullam non nisi vitae mi efficitur fermentum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In tellus nulla, scelerisque vel justo ut, tincidunt sodales velit. Cras at dapibus ligula, nec maximus nisl. Ut id urna ultricies, mollis nulla semper, hendrerit lectus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Morbi vel sodales risus. Nulla ut quam et velit consectetur tincidunt nec vitae tellus. Nulla nec accumsan tortor, non vestibulum ipsum. Curabitur sit amet volutpat felis. Proin maximus laoreet tristique. Donec feugiat sollicitudin magna sed tempus.</p>
-    </article>
-    <footer>
-      <p>Posted by Katie Martell</p>
-    </footer>
-  </body>
-  </html>
+  </section>
+  <section>
+    <h4>Portfolio List</h4>
+    <p>Thank you for visiting my site! Below you can see a list of projects I have completed. For my portfolio I want an <q>About me</q> page which I already made in assigment 1. Therefore I linked to my main naviagation page. I will delete this after this assignment is graded, but I wanted to explain why it was there. I've added some additional HTML elements to my <q>About me</q> page to fufill the assignment requirements.</p>
+
+    <table>
+      <tr id="header-row">
+        <th>Project Name</th>
+        <th>Image</th>
+        <th>Link</th>
+      </tr>
+      <tr>
+        <td><p>About Me Assignment</p></td>
+        <td><i class="fas fa-user-circle table-icon"></i></td>
+        <td><a href="about-me.html">About Me</a></td>
+      </tr>
+      <tr>
+        <td><p>Where I've Been Assignment</p></td>
+        <td><i class="fas fa-globe-americas table-icon"></i></td>
+        <td><a href="#">Where I've Been</a></td>
+      </tr>
+      <tr>
+        <td><p>Music I Like Assignment</p></td>
+        <td><i class="fas fa-music table-icon"></i></td>
+        <td><a href="#">Music I Like</a></td>
+      </tr>
+    </table>
+  </section>
+
+  <article>
+    <h4>Blog Post 1</h4>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum facilisis consectetur mi, ac sagittis elit luctus quis. Fusce hendrerit imperdiet rutrum. In lacinia rhoncus consequat. Vivamus dictum tellus eget pulvinar porttitor. Nullam non nisi vitae mi efficitur fermentum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In tellus nulla, scelerisque vel justo ut, tincidunt sodales velit. Cras at dapibus ligula, nec maximus nisl. Ut id urna ultricies, mollis nulla semper, hendrerit lectus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Morbi vel sodales risus. Nulla ut quam et velit consectetur tincidunt nec vitae tellus. Nulla nec accumsan tortor, non vestibulum ipsum. Curabitur sit amet volutpat felis. Proin maximus laoreet tristique. Donec feugiat sollicitudin magna sed tempus.</p>
+
+  </article>
+  <footer>
+    <p>Posted by Katie Martell</p>
+  </footer>
+</body>
+</html>
