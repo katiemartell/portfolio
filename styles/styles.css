@@ -2,7 +2,7 @@ body {
   background-color: #deeaee;
   font-family: 'Roboto Slab', serif;
 }
-a:visited {
+a:link, a:visited {
 color: black;
 }
 a:hover {
