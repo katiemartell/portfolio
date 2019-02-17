@@ -2,6 +2,12 @@ body {
   background-color: #deeaee;
   font-family: 'Roboto Slab', serif;
 }
+a:visited {
+color: black;
+}
+a:hover {
+  color: #c94c4c;
+}
 .flex-container {
   display: flex;
   background-color: #b1cbbb;
@@ -68,8 +74,17 @@ footer p {
   padding:2px;
   border:2px solid #c94c4c;
 }
+#home-page-pic:hover{
+  -webkit-transform: rotateZ(180deg);
+  -ms-transform: rotateZ(180deg);
+  transform: rotateZ(180deg);
+}
 table {
   width: 50%;
+}
+td:hover {
+  transition: background-color .75s ease;
+  background-color: #b1cbbb;
 }
 #header-row{
   font-weight: bold;
