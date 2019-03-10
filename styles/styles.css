@@ -123,3 +123,10 @@ select {
   border-radius: 2px;
   background-color: white;
 }
+fieldset{
+  border:none;
+}
+
+fieldset input{
+  display: inline;
+}
