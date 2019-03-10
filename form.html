@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Contact Me</title>
+  <link rel="stylesheet" type="text/css" href="styles/styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Raleway%7CRoboto+Slab" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+</head>
+<body>
+
+  <header>
+    <h1>Contact Katie</h1>
+    <img id="personal-photo" src="images/profilephoto.jpg" alt="A photo of myself">
+    <h4>Main Navigation</h4>
+    <div class="flex-container">
+      <div class="nav-box"><a class="header-link" href="index.html">Home</a></div>
+      <div class="nav-box"><a class="header-link" href="about-me.html">About me</a></div>
+      <div class="nav-box"><a class="header-link" href="form.html">Contact Me</a></div>
+    </div>
+  </header>
+
+  <br><br>
+  <form method="GET">
+    <label>First Name
+      <input type="text" name="firstName"/>
+    </label>
+
+    <label>Last Name
+      <input type="text" name="lastName"/>
+    </label>
+
+    <label>Email Address
+      <input type="email" name="userEmail"/>
+    </label>
+
+    <label>Region
+      <select name="region">
+        <option value="">North America</option>
+        <option value="asia">Asia</option>
+        <option value="south-america">South America</option>
+        <option value="europe">Europe</option>
+        <option value="africa">Africa</option>
+      </select>
+    </label>
+
+    <label>Message
+      <textarea name="userMessage" rows="4" cols="50">
+      </textarea>
+    </label>
+
+    <input type="submit" value="Submit"/>
+  </form>
+</body>
+</html>
